@@ -1,0 +1,39 @@
+﻿#menu1 li
+{ 
+color:#FF9900; 
+background-color:#B9B3B3; 
+margin:10px; 
+width:150px; 
+height:20px; 
+padding:5px; 
+margin:3px; 
+font-family:Impact; 
+cursor:pointer; 
+display:inline
+}
+
+#menu1 li:hover 
+{ 
+color:#FBF8F8; 
+background-color:#060505; 
+margin:10px; 
+width:150px; 
+height:20px; 
+margin:2px; 
+padding:5px; 
+font-family:Impact; 
+cursor:pointer; 
+display:inline
+}
+
+.menu2 li { color:#ffffff; background-color:#CC0066; margin:10px; width:150px; height:20px; padding:5px; margin:3px; font-family:Impact; 
+cursor:pointer;}
+
+.menu2 li:hover { color:#CC0066; background-color:#CCCC00; margin:10px; width:150px; height:20px; margin:2px; padding:5px; font-
+family:Impact; cursor:pointer; }
+
+.menu3 li { color:#ffffff; background-color:#A347FF; margin:10px; width:150px; height:20px; padding:2px; margin:2px; font-family:Impact; 
+cursor:pointer; display:inline}
+
+.menu3 li:hover { color:#fffff; background-color:#A347FF; margin:10px; width:150px; height:20px; padding:5px; margin:2px; font-
+family:Impact; cursor:pointer; display:inline}    

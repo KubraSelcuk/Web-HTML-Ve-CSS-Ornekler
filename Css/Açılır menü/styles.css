@@ -1,0 +1,68 @@
+﻿body {
+	font-family: 'Source Sans Pro', Tahoma;
+	font-size:20px;
+	font-weight:300;
+	color:#333;
+	margin:100px 0 0 0;
+	padding:0;
+}
+.menu {
+	background-color:#333;
+	width:800px;
+	margin:0 auto;
+}
+.menu ul {
+	display:block;
+	margin:0;
+	padding:0;
+}
+.menu ul li {
+	float:left;
+	list-style:none;
+}
+.menu ul li a {
+	background-color:#333;
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	padding:20px;
+	transition:all .3s ease-in-out;
+}
+.menu ul li a:hover {
+	background-color:#b34233;
+	color:#fff;
+	transition:all .3s ease-in-out;
+}
+.menu ul li ul {
+	display:none;
+}
+.menu ul li:hover ul {
+	display:block;
+	position:absolute;
+}
+.menu ul li:hover > a {
+	background-color:#b34233;
+	color:#fff;
+	transition:all .3s ease-in-out;
+}
+.menu ul li ul li {
+	float:none;
+	list-style:none;
+}
+.menu ul li ul li a {
+	display:block;
+	border:0;
+	background-color:#b34233;
+	padding:20px;
+	color:#fff;
+	width:200px;
+	transition:all .3s ease-in-out;
+}
+.menu ul li ul li a:hover {
+	transition:all .2s ease-in-out;
+	background-color:#953629;
+}
+
+.cle {
+	clear:both;
+}

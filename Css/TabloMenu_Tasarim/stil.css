@@ -1,0 +1,76 @@
+body{
+
+
+background-image: url('alt.png');
+background-repeat: repeat-x;
+background-color: #f8f505;
+}
+
+
+.kapsayici {
+    width: 900px;
+    margin: 20 auto;
+}
+
+.banner {
+    width: 100%;
+    background-image: url('IMG_3595.fw.png');
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#menum {
+    width: 100%;
+    height: 16px;
+    margin-bottom: 15px;
+}
+
+
+            #menum ul {
+                margin:20px;
+            }
+
+
+            #menum ul {
+                float: left;
+                margin:0;
+                padding: 0;
+                list-style: none;
+                border-bottom: 1px solid gray;
+            }
+            #menum ul li {
+                float: left;
+                background:url('sag.png') no-repeat right top;
+            }
+            #menum li a {
+                background:url('sol.png') no-repeat left top; 
+                display: block;
+                text-decoration: none;
+                padding: 4px 58px;
+                font: bold 12px/20px Verdana, Geneva, sans-serif;
+                color:blue;
+            }
+            #menum ul a:hover {
+                color:yellow;
+            }
+
+.icerik {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 10px;
+    background-image: url('resim.jpg');
+    opacity: 0.6;
+}
+
+
+.yazi {
+    margin: 20px;
+    color:blue;
+    font: bold 12px/20px Verdana, Geneva, sans-serif;
+}
+
+
+
+
